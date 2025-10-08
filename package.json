@@ -1,0 +1,52 @@
+{
+  "name": "sendnow aalytics platform content sharing and tracking",
+  "version": "1.0.0",
+  "description": "sendnow aalytics platform content sharing and tracking",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kuzma02",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.817.0",
+    "@google/generative-ai": "^0.24.1",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.10.0",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.41.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "express-async-errors": "^3.1.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "firebase": "^11.5.0",
+    "firebase-admin": "^13.2.0",
+    "form-data": "^4.0.2",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "pdf-parse": "^1.1.1",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^4.10.38",
+    "puppeteer": "^24.10.1",
+    "uuid": "^11.0.5",
+    "xss-clean": "^0.1.4",
+    "yallist": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": []
+}
